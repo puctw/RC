@@ -1,2 +1,19 @@
 R_2A.1 - Configuração da rede entre R1 e R2 - Endereço de Rede (CIDR)
-A rede entre R1 e R2 é a que fica com os
+A rede entre R1 e R2 é a que fica com os endereços mais baixos, após a divisão da rede original.
+Resposta: 193.136.224.0/21
+
+R_2A.2 - Configuração da rede entre R1 e R2 - Máscara de rede
+Resposta: 255.255.248.0
+
+R_2A.3 - Configuração da rede entre R1 e R2 - Endereço de broadcast
+Resposta: 193.135.231.255
+
+R_2A.4 - Configuração da rede entre R1 e R2 - Gama de endereços disponíveis para endereçar máquinas
+Resposta: 193.136.224.1 - 193.136.231.254
+
+R_2A.5 - Configuração da rede entre R2 e R3 - Endereços da Rede (CIDR)
+A rede entre R2 e R3 é a que fica com os endereços maiores após a divisão da rede original.
+Resposta: 193.136.232.0/21
+
+R_2A.6 - Configuração da rede entre R2 e R3 - Máscara de rede
+Resposta: 255.255.248.0
