@@ -6,7 +6,7 @@ R_2A.2 - Configuração da rede entre R1 e R2 - Máscara de rede
 Resposta: 255.255.248.0
 
 R_2A.3 - Configuração da rede entre R1 e R2 - Endereço de broadcast
-Resposta: 193.135.231.255
+Resposta: 193.136.231.255
 
 R_2A.4 - Configuração da rede entre R1 e R2 - Gama de endereços disponíveis para endereçar máquinas
 Resposta: 193.136.224.1 - 193.136.231.254
