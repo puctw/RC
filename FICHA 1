@@ -1,17 +1,17 @@
-R_2A.1 - Configuração da rede entre R1 e R2 - Endereço de Rede (CIDR)
+R_2A.1 - Configuração da rede entre R1 e R2 - Endereço da Rede (CIDR)
 A rede entre R1 e R2 é a que fica com os endereços mais baixos, após a divisão da rede original.
 Resposta: 193.136.224.0/21
 
 R_2A.2 - Configuração da rede entre R1 e R2 - Máscara de rede
 Resposta: 255.255.248.0
 
-R_2A.3 - Configuração da rede entre R1 e R2 - Endereço de broadcast
+R_2A.3 - Configuração da rede entre R1 e R2 - Endereço de broadcast
 Resposta: 193.136.231.255
 
-R_2A.4 - Configuração da rede entre R1 e R2 - Gama de endereços disponíveis para endereçar máquinas
-Resposta: 193.136.224.1 - 193.136.231.254
+R_2A.4 - Configuração da rede entre R1 e R2 - Gama de endereços disponíveis para endereçar máquinas
+Resposta: 193.136.224.1-193.136.231.254
 
-R_2A.5 - Configuração da rede entre R2 e R3 - Endereços da Rede (CIDR)
+R_2A.5 - Configuração da rede entre R2 e R3 - Endereço da Rede (CIDR)
 A rede entre R2 e R3 é a que fica com os endereços maiores após a divisão da rede original.
 Resposta: 193.136.232.0/21
 
@@ -22,4 +22,50 @@ R_2A.7 - Configuração da rede entre R2 e R3 - Endereço de broadcast
 Resposta: 193.136.239.255
 
 R_2A.8 - Configuração da rede entre R2 e R3 - Gama de endereços disponíveis para endereçar máquinas
-Resposta: 193.136.232.1 - 193.136.239.254
+Resposta: 193.136.232.1-193.136.239.254
+
+R_2B.1 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/0 do router R1
+Resposta: 10.20.195.254-255.255.252.0
+
+R_2B.2 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/1 do router R1
+Resposta: 193.136.224.1-255.255.248.0
+
+R_2B.3 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/1 do router R2
+Resposta: 193.136.239.254-255.255.248.0
+
+R_2B.4 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/0 do router R2
+Resposta: 193.136.231.254-255.255.248.0
+
+R_2B.5 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/0 do router R3
+Resposta: 193.136.232.1-255.255.248.0
+
+R_2B.6 - Configuração de rede de algum do equipamento ativo usado no cenário - Interface f0/1 do router R3
+Resposta: 10.30.10.254-255.255.255.0
+
+R_2C.1 - Configuração de rede do PC-1 e PC-2 - Endereço IP
+Resposta: 10.20.192.1-10.30.10.1
+
+R_2C.2 - Configuração de rede do PC-1 e PC-2 - Máscara de rede
+Resposta: 255.255.252.0-255.255.255.0
+
+R_2C.3 - Configuração de rede do PC-1 e PC-2 - Endereço do default gateway
+Resposta: 10.20.195.254-10.30.10.254
+
+R_2D.1 - Configuração da rede onde se situa o PC_1 - Endereço da Rede (CIDR)
+Resposta: 10.20.192.0/22
+
+R_2D.2 - Configuração da rede onde se situa o PC_1 - Máscara de rede
+Resposta: 255.255.252.0
+
+R_2D.3 - Configuração da rede onde se situa o PC_1 - Endereço de broadcast
+Resposta: 10.20.195.255
+
+R_2D.4 - Configuração da rede onde se situa o PC_1 - Gama de endereços disponíveis para endereçar máquinas
+Resposta: 10.20.192.1-10.20.195.254
+
+R_3A - Indique os comandos que usou para configurar o Router R1.
+Nota: indique todos os comandos, inclusive os respeitantes à criação de rotas de encaminhamento.
+Resposta:
+
+R_3B - Indique os comandos que usou para configurar o PC1.
+Resposta:
